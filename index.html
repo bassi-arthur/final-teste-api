@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+<script src="https://kit.fontawesome.com/d9eb755b81.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Viva Real</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class='logo'></a>
+            <ul class='menu-options'>
+                <li>comprar</li>
+                <li>alugar</li>
+                <li>imóveis novos</li>
+                <li>seleção viva real</li>
+                <li>descobrir</li>
+                <li>financiamento</li>
+                <li class="rigth-container">anunciar imóveis</li>
+                <div class="rigth-container">entrar</div>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-container">
+            <di>
+            <div class="aside-location">
+            <div class="search-container">
+                <div class="location">
+                    <label for="location">localização do imóvel
+                        <input type="text" name='location' id='location' class='text-input' list="citysList" placeholder="Difite uma rua, bairro ou cidade">
+                        <datalist id='citysList'>
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="São Paulo">São Paulo</option>
+                        </datalist>
+                    </label>
+                </div>
+                
+                <label for="virtualTour">
+                    imovel com
+                    <div class="switch-container">
+                        <!-- <input type="checkbox" name="virtualTour" id="virtualTour" class='virtualTour'> -->
+                    </div>
+                </label>
+                <label for="propertyType">tipo do imóvel
+                   <select id="propertyType" name="propertyType" class='propertyType'></select>
+                </label>
+                <div class="prices">
+                    <div class="min-price">
+                        <label for="minPrice">preço mínimo
+                            <input type="text" name='minPrice' id='minPrice' class='text-input' placeholder="R$">
+                        </label>
+                    </div>
+                    <div class="max-price">
+                        <label for="maxPrice">preço máximo
+                            <input type="text" name='maxPrice' id='maxPrice' class='text-input' placeholder="R$">
+                        </label>
+                    </div>
+                </div>
+                <label for='number-of-bedrooms'>número de quartos
+                    <ul id='number-of-bedrooms' name='number-of-bedrooms' class='number-of-bedrooms'>
+                        <li><button class='btn-bedrooms'>1+</button></li>
+                        <li><button class='btn-bedrooms'>2+</button></li>
+                        <li><button class='btn-bedrooms'>3+</button></li>
+                        <li><button class='btn-bedrooms'>4+</button></li>
+                        <li><button class='btn-bedrooms'>5+</button></li>
+                    </ul>
+                </label>
+            </div>
+            </div>
+            <div class="aside-location">
+            <div class="amenities-container">
+                <div class="prices">
+                    <div class="min-price">
+                        <label for="minPrice">área mínimo
+                            <input type="text" name='minPrice' id='minPrice' class='text-input' placeholder="R$">
+                        </label>
+                    </div>
+                    <div class="max-price">
+                        <label for="maxPrice">área máximo
+                            <input type="text" name='maxPrice' id='maxPrice' class='text-input' placeholder="R$">
+                        </label>
+                    </div>
+                </div>
+                <label for='number-of-bedrooms'>número de vagas na garagem
+                    <ul id='number-of-bedrooms' name='number-of-bedrooms' class='number-of-bedrooms'>
+                        <li><button class='btn-bedrooms'>1+</button></li>
+                        <li><button class='btn-bedrooms'>2+</button></li>
+                        <li><button class='btn-bedrooms'>3+</button></li>
+                        <li><button class='btn-bedrooms'>4+</button></li>
+                        <li><button class='btn-bedrooms'>5+</button></li>
+                    </ul>
+                </label>
+                <label for='number-of-bedrooms'>número de banheiros
+                    <ul id='number-of-bedrooms' name='number-of-bedrooms' class='number-of-bedrooms'>
+                        <li><button class='btn-bedrooms'>1+</button></li>
+                        <li><button class='btn-bedrooms'>2+</button></li>
+                        <li><button class='btn-bedrooms'>3+</button></li>
+                        <li><button class='btn-bedrooms'>4+</button></li>
+                        <li><button class='btn-bedrooms'>5+</button></li>
+                    </ul>
+                </label>
+            </div>
+            </div>
+        </di>
+       <div class="result-container">
+        <ul class='user-menu-options'>
+            <li><button class='btn-result-selected'>comprar</button></li>
+            <li><button class="btn-result">alugar</button></li>
+            <li><button class="btn-result">imoveis novos</button></li>
+            <li><button class="btn-result">seleção viva real</button></li>
+        </ul>
+        <div id='header-results'></div>
+        <div id='card-results'></div>
+       </div>
+    </div>
+    <footer>
+        <div class="footer-menu-container">
+            <section class="find-property-footer">
+                <span>Encontre imóveis</span>
+                <ul>
+                    <li><a href="#">Alugar</a></li>
+                    <li><a href="#">Imóveis Novos</a></li>
+                    <li><a href="#">Descobrir</a></li>
+                    <li><a href="#">Duvidas sobre como usar o Viva Real</a></li>
+                    <li><a href="#">Mapa do site</a></li>
+                </ul>
+            </section>
+            <section class="institucional-footer">
+                <span>Institucional</span>
+                <ul>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Quer trabalhar conosco?</a></li>
+                </ul>
+            </section>
+            <section class="more-products-footer">
+                <span>Mais produtos</span>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Viva Corretor</a></li>
+                    <li><a href="#">Simulador Minha Casa Minha Vida</a></li>
+                    <li><a href="#">Simulador de Financiamento de Imóveis</a></li>
+                </ul>
+            </section>
+            <section class="advertiser-footer">
+                <span>Anunciante</span>
+                <ul>
+                    <li><a href="#">Anunciar imóveis</a></li>
+                    <li><a href="#">Dúvidas frequentes dos Anunciantes</a></li>
+                    <li><a href="#">Simulador Minha Casa Minha Vida</a></li>
+                    <li>
+                        <p>Social</p>
+                        <ul class='social-media-list'>
+                            <li><i class="fab fa-facebook"></i></li>
+                            <li><i class="fab fa-twitter-square"></i></li>
+                            <li><i class="fab fa-youtube"></i></li>
+                            <li><i class="fab fa-instagram"></i></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>Aplicativos</p>
+                        <ul class=donwload-app-list>
+                            <li>Google play</li>
+                            <li>Appstore</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class='footer-copyright-container'>
+            <div class="logo-footer"><span>Uma empresa</span></div>
+            <p class="copyright">Copyright &copy; 2021 OLX Brasil. Todo os direitos reservados.</p>
+            <div>
+                <ul class='copyright-list'>
+                    <li><a href="#">termo de uso</a></li>
+                    <li><a href="#">política de privacidade</a></li>
+                    <li><a href="#">política de cookies</a></li>
+                    <li><a href="#">portal de privacidade</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src='back.js'></script>
+</body>
+</html>
