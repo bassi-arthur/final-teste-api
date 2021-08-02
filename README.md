@@ -11,9 +11,9 @@
 End-point do Fetch:
 
 
-    const urlApartament = `https://private-9e061d-piweb.apiary-mock.com/venda?state=${data.estate}&city=${data.city}`;
+    const urlApartament = `https://private-9e061d-piweb.apiary-mock.com/venda?state=$estado&city=$cidade`;
     
-  
+Use as cidades sao-paulo ou rio-de-janeiro e estados sp ou rj
 
 ![image](https://user-images.githubusercontent.com/60894974/127903644-d37c7a67-f859-45c8-b7a7-3273aeca3052.png)
 
