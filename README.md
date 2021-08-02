@@ -3,7 +3,7 @@
 📜 Consulte a listagem de imóveis de algumas cidades brasileiras
 
 
-💡 Nesse projeto você pode consultar uma lista de imóveis fornecidas pela fake api. Trta-se de uma api com end-point que foi fornecida e solicitado uma copia do site <ahref='https://www.vivareal.com.br/venda/'>Viva Real</a> para mostrar os dados ao usuário. Em suma foi desenvolvido para aperfeiçoar e fixar meus conhecimentos sobre o uso de api.
+💡 Nesse projeto você pode consultar uma lista de imóveis fornecidas pela fake api. Trta-se de uma api com end-point que foi fornecida e solicitado uma copia do site <a href='https://www.vivareal.com.br/venda/'>Viva Real</a> para mostrar os dados ao usuário. Em suma foi desenvolvido para aperfeiçoar e fixar meus conhecimentos sobre o uso de api.
 
 
 ## 📈 Exemplo de uso
