@@ -2,27 +2,9 @@
 
 📜 Consulte a listagem de imóveis de algumas cidades brasileiras
 
-<p align="center">
-<img src="https://i.ibb.co/cksr7Sb/web-preview.png" alt="Gabriel de Jesus" border="0">
-</p>
-
-
 
 💡 Nesse projeto você pode consultar uma lista de imóveis fornecidas pela fake api. Trta-se de uma api com end-point que foi fornecida e solicitado uma copia do site <ahref='https://www.vivareal.com.br/venda/'>Viva Real</a> para mostrar os dados ao usuário. Em suma foi desenvolvido para aperfeiçoar e fixar meus conhecimentos sobre o uso de api.
 
-## 🛠 Instalação
-
-OS X & Linux:
-
-```sh
-npm install final-teste-api  --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
-```
 
 ## 📈 Exemplo de uso
 
